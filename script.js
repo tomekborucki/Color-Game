@@ -45,8 +45,9 @@ resetButton.addEventListener("click", function(){
     for(i=0; i<squares.length; i++){
         squares[i].style.backgroundColor = colors[i];
     }
-    h1.style.backgroundColor = "#232323";
-    resetButton.textContent = "New Colors";
+    h1.style.backgroundColor = "steelblue";
+    this.textContent = "New Colors";
+    messageDisplay.textContent = "";
 })
 
 colorDisplay.textContent = pickedColor;

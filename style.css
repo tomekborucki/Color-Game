@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 body{
     background: #232323;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .square {
@@ -9,15 +13,22 @@ body{
     float: left;
     margin: 1.66%;
     border-radius: 40px;
+    transition-duration: .3s;
 }
 
 #container {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 h1 {
     color: #fff;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 0;
 }
 
 #stripe {
@@ -27,5 +38,35 @@ h1 {
 }
 
 .selected {
-    background: blue;
+    color: #fff;
+    background: steelblue;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+button {
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    background: none;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition-duration: .3s;
+    outline: none;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    font-weight: 600;
+}
+
+button:hover {
+    color: #fff;
+    background: steelblue;
+    
 }
